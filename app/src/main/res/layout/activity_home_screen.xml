@@ -124,6 +124,7 @@
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:onClick="goTo"
                 android:src="@drawable/modified" />
 
             <ImageView
@@ -142,7 +143,8 @@
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="1"
-                android:src="@drawable/modified" />
+                android:onClick="recents"
+                android:src="@drawable/unnamed" />
 
         </LinearLayout>
 
@@ -213,7 +215,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="360dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/account"

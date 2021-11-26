@@ -46,4 +46,9 @@ public class HomeScreen extends AppCompatActivity {
         Intent i = new Intent(this,SecondHome.class);
         startActivity(i);
     }
+
+    public void goTo(View view) {
+        Intent i = new Intent(this,Account.class);
+        startActivity(i);
+    }
 }
