@@ -187,16 +187,6 @@
                 android:textSize="15sp"
                 android:textStyle="italic" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:paddingLeft="30dp"
-                android:text="Navia"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="15sp"
-                android:textStyle="italic" />
 
 
         </LinearLayout>
